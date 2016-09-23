@@ -19,5 +19,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
     "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "next-js-core2": "afeiship/next-js-core2"
   }
 }
