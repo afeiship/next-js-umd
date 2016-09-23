@@ -15,9 +15,4 @@
     require('./gulp/' + file);
   });
 
-  //test
-  gulp.task('default',['clean'],function () {
-    gulp.start(['build']);
-  });
-
 }());
