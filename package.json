@@ -1,0 +1,23 @@
+{
+  "name": "next-js-umd",
+  "version": "0.0.0",
+  "description": "Amd &amp; commonJS based on next-js-core2.",
+  "homepage": "https://github.com/afeiship/next-js-umd",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "yargs": "^4.7.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "next-js-umd",
+  "description": "Amd &amp; commonJS based on next-js-core2.",
+  "main": "dist/next-js-umd.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-js-umd",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
