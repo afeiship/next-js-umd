@@ -1,8 +1,8 @@
 {
   "name": "next-js-umd",
-  "version": "0.0.0",
-  "description": "Amd &amp; commonJS based on next-js-core2.",
-  "homepage": "https://github.com/afeiship/next-js-umd",
+  "version": "0.0.1",
+  "description": "Amd in client and multiple require in node.",
+  "homepage": "https://github.com/afeiship/next-umd",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"

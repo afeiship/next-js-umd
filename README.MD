@@ -1,2 +1,2 @@
-#next-js-umd
-Amd & commonJS based on next-js-core2.
+#n ext-js-umd
+Amd in client and multiple require in node.
