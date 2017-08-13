@@ -11,7 +11,7 @@
 
   gulp.task('build',function () {
     return gulp.src(config.files)
-      .pipe($.concat('next-js-umd.js'))
+      .pipe($.concat('next-umd.js'))
       .pipe(gulp.dest('dist'))
       .pipe($.size({title:'[ default size ]:'}))
       .pipe($.rename({suffix: '.min'}))
