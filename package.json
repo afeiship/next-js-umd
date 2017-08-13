@@ -24,6 +24,7 @@
     "yargs": "^4.7.1"
   },
   "dependencies": {
+    "next-is": "github:afeiship/next-is",
     "next-js-core2": "afeiship/next-js-core2"
   }
 }

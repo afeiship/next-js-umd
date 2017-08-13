@@ -12,10 +12,10 @@
       gulp: 'gulp',
     },
     files: [
-      rootPath + '/src/Path.js',
-      rootPath + '/src/Status.js',
-      rootPath + '/src/Module.js',
-      rootPath + '/src/Loader.js',
+      rootPath + '/src/path.js',
+      rootPath + '/src/status.js',
+      rootPath + '/src/module.js',
+      rootPath + '/src/loader.js',
       rootPath + '/src/index.js'
     ]
   };

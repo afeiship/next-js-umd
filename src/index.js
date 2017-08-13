@@ -1,7 +1,7 @@
 (function (nx, global) {
 
+
   var Module = nx.amd.Module;
-  var isNodeEnv = typeof module !== 'undefined' && module.exports;
 
   nx.define = function (inDeps, inFactory) {
     var len = arguments.length;
@@ -56,7 +56,7 @@
   };
 
 
-  if (isNodeEnv) {
+  if (nx.isServer()) {
     nx.__currentRequire = function (inSystemRequire) {
       nx.__currentRequire = inSystemRequire;
     };
