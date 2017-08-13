@@ -304,6 +304,7 @@
 
 
   var Module = nx.amd.Module;
+  var isServer = nx.isServer || require('next-is').isServer;
 
   nx.define = function (inDeps, inFactory) {
     var len = arguments.length;
