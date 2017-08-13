@@ -10,6 +10,7 @@
   "scripts": {
     "build": "gulp"
   },
+  "main": "dist/next-umd.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
