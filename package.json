@@ -1,5 +1,5 @@
 {
-  "name": "next-js-umd",
+  "name": "next-umd",
   "version": "0.0.1",
   "description": "Amd in client and multiple require in node.",
   "homepage": "https://github.com/afeiship/next-umd",
