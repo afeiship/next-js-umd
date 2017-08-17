@@ -343,9 +343,10 @@
   nx.require = function (inDeps, inCallback) {
     var nDeps = inDeps.length;
     var count = 0, params = [];
+    var callback = inCallback || nx.noop;
     var done = function () {
       if (count === nDeps) {
-        inCallback.apply(null, params);
+        callback.apply(null, params);
       }
     };
 
